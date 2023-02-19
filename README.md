@@ -6,4 +6,5 @@ Tech Stack:
 - Svelte Kit
 - Netlify
 - TypeScript
-- Skeleton UI
+- Skeleton UI https://www.skeleton.dev/guides/tailwind
+- https://tabler-icons.io/ 

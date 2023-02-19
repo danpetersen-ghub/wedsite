@@ -1,5 +1,7 @@
 <script lang="ts">
-	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
+	// import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
+	import '../../src/theme.postcss';
+	import '../../src/app.css';
 	import '@skeletonlabs/skeleton/styles/all.css';
 	import '../app.postcss';
 	import ImageCopyBlock from '../components/ImageCopyBlock.svelte';
@@ -14,7 +16,7 @@
 </header>
 
 <div class="container mx-auto p-8 space-y-8 text-gray-600">
-	<h1>Welcome</h1>
+	<h2>Welcome</h2>
 	<p>
 		Welcome to our wedding website, where we invite you to join us for the celebration of our love
 		in the beautiful coastal region of Cornwall. We are thrilled to have you as part of our special
