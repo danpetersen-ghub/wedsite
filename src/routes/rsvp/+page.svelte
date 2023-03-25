@@ -9,15 +9,12 @@
 	</div>
 </header>
 
-<div class="container mx-auto p-8 space-y-8 text-gray-600 text-left">
+<div class="container mx-auto p-8 space-y-8 text-tertiary-400 text-left">
 	<p class="">
 		We kindly request that all guests RSVP through the web form provided on our wedding website.
 		This is to ensure that we have an accurate headcount for our special day and can make the
 		necessary arrangements to accommodate everyone.
 	</p>
-	<!-- <p>
-		More info: <a href="mailto:danpetersen@hotmail.co.uk"><IconMail style="display: inline;" /></a>
-	</p> -->
 
 	<p>
 		By RSVPing through the web form, you will receive all the necessary information about our
@@ -34,24 +31,39 @@
 		Thank you for considering our request, and we look forward to seeing you at our wedding in
 		Cornwall!
 	</p>
+	<h1 class="mb-0 text-primary-500 text-center">RSVP</h1>
 	<div class="flex items-center justify-center">
 		<form
 			class="md:w-1/2 rounded px-8 pt-6 pb-8 mb-4"
 			name="rsvp-form"
 			method="POST"
 			data-netlify="true"
-			action="/rsvp-success"
+			action="/success"
 			style=""
 			enctype="application/x-www-form-urlencoded"
 		>
 			<input class="input " type="hidden" name="form-name" value="rsvp-form" />
 			<!-- <label class="label" for="name">Name</label> -->
-			<input class="input m-2" name="name" id="name" required placeholder="Name" type="text" />
+			<input
+				class="input m-2 bg-secondary-500 text-primary-500 text-base"
+				name="name"
+				id="name"
+				required
+				placeholder="Name"
+				type="text"
+			/>
 			<!-- <label class="label" for="email">Email</label> -->
-			<input class="input m-2" name="email" id="email" required placeholder="Email" type="email" />
+			<input
+				class="input m-2 bg-secondary-500 text-primary-500 text-base"
+				name="email"
+				id="email"
+				required
+				placeholder="Email"
+				type="email"
+			/>
 			<!-- <label class="label" for="message">Message</label> -->
 			<input
-				class="input m-2"
+				class="input m-2 bg-secondary-600 text-primary-500 text-base"
 				name="message"
 				id="message"
 				required
@@ -59,10 +71,10 @@
 				type="text"
 			/>
 			<input
-				class="input pt-2 pb-2 m-2"
+				class="input pt-2 pb-2 m-2 bg-primary-400 text-secondary-500 text-lg"
 				type="submit"
 				value="RSVP"
-				style="background-color: white; border-radius: 5px;margin-top: 20px;"
+				style="border-radius: 5px;margin-top: 20px;"
 			/>
 		</form>
 	</div>

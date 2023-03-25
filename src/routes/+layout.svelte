@@ -13,12 +13,15 @@
 			<button class="btn variant-soft-primary" use:menu={{ menu: 'nav-items' }}>
 				<IconMenu2 />
 			</button>
-			<nav class="list-nav card p-4 w-64 shadow-xl text-gray-600" data-menu="nav-items">
+			<nav class="list-nav card p-4 w-64 shadow-xl text-primary-600" data-menu="nav-items">
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/rsvp">RSVP</a></li>
-					<li><a href="/contact">Contact</a></li>
+					<li><a href="/about-the-day">About The Day</a></li>
+					<li><a href="/contact-us">Contact Us</a></li>
+					<!-- <li><a href="/rsvp">RSVP</a></li> -->
+					<!-- <li><a href="/your-details">Your Details</a></li>
+					<li><a href="/travel-and-accommodation">Travel and Accommodation</a></li>
+					<li><a href="/faqs">FAQs</a></li> -->
 				</ul>
 			</nav>
 		</span>
@@ -28,8 +31,8 @@
 	<slot />
 
 	<svelte:fragment slot="pageFooter"
-		><footer class="bg-gray-800 text-gray-400 py-8 px-4">
-			<div class="container mx-auto  justify-between text-center h-50">
+		><footer class="bg-secondary-600 text-primary-600 py-8 px-4">
+			<div class="container mx-auto justify-between text-center h-50">
 				<div class="w-full sm:w-auto  text-center">
 					<p>&copy; 2023 Dan & Ali</p>
 					<br />

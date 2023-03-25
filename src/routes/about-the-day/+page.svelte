@@ -9,8 +9,8 @@
 	</div>
 </header>
 
-<div class="container mx-auto p-8 space-y-8 text-gray-600">
-	<h2>The Venue</h2>
+<div class="container mx-auto p-8 space-y-8 text-tertiary-400">
+	<h2 class="text-primary-600">The Venue</h2>
 	<p class="">
 		Steeped in history and set amidst spectacular wooded countryside, Launcells Barton is a
 		family-owned exclusive use wedding venue in Launcells, a small parish situated near Bude in

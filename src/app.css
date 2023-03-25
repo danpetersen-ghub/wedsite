@@ -1,1 +1,44 @@
-html, body { @apply h-full overflow-hidden; }
+html,
+body {
+  @apply h-full overflow-hidden;
+}
+
+body {
+  background-color: rgb(var(--color-secondary-50)) !important;
+}
+
+:root {
+  --theme-font-family-base: sans-serif;
+  --theme-font-family-heading: 'Rozha One', serif;
+}
+
+.example-primary {
+  color: #d59d4a;
+}
+
+.example-secondary {
+  color: #f5f4f0
+}
+
+.example-tertiary {
+  color: #000000;
+}
+
+.example-success {
+  color: #ff8080;
+}
+
+.example-warning {
+  color: #EAB308;
+}
+
+.example-error {
+  color: #ff8080;
+}
+
+/* primary | #d59d4a */
+/* secondary | #f5f4f0 */
+/* tertiary | #000000 */
+/* success | #ff8080 */
+/* warning | #EAB308 */
+/* error | #ff8080 */
