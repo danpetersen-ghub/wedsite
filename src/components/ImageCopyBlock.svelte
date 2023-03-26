@@ -4,7 +4,7 @@
 	export let bodyText: string;
 </script>
 
-<div class="flex flex-col md:flex-row">
+<div class="flex flex-col md:flex-row mb-2">
 	<div class="lg:w-1/5 md:w-1/2 max-w-sm">
 		<img src={imageUrl} alt={title} class="w-full" />
 	</div>

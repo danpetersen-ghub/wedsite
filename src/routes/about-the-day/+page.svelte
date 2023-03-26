@@ -2,7 +2,7 @@
 </script>
 
 <header class="bg-cover bg-center relative" style="background-image: url('hero.jpg');">
-	<div class="absolute top-0 left-0 right-0 bottom-0 bg-gray-600 opacity-50" />
+	<div class="absolute top-0 left-0 right-0 bottom-0 bg-gray-600 opacity-0" />
 	<div class="container mx-auto py-32 px-4 relative text-center">
 		<h1 class="text-4xl lg:text-6xl  text-white leading-tight mb-4">About the Day</h1>
 		<p class="text-xl lg:text-2xl text-white leading-tight mb-8 italic">15th June 2024</p>

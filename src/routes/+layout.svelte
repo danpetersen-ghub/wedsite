@@ -18,11 +18,11 @@
 					<ul>
 						<li><a href="/">Home</a></li>
 						<li><a href="/about-the-day">About The Day</a></li>
-						<li><a href="/contact-us">Contact Us</a></li>
-						<!-- <li><a href="/rsvp">RSVP</a></li> -->
-						<!-- <li><a href="/your-details">Your Details</a></li>
 						<li><a href="/travel-and-accommodation">Travel and Accommodation</a></li>
-						<li><a href="/faqs">FAQs</a></li> -->
+						<li><a href="/your-details">Your Details</a></li>
+						<li><a href="/rsvp">RSVP</a></li>
+						<li><a href="/faqs">FAQs</a></li>
+						<li><a href="/contact-us">Contact Us</a></li>
 					</ul>
 				</nav>
 			</span>

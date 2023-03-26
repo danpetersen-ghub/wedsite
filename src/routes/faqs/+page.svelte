@@ -14,10 +14,8 @@
 
 <div class="container mx-auto p-8 my-8 text-gray-600 text-left" />
 
-<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4">Success</h1>
-<p class="text-xl lg:text-2xl  leading-tight mb-8  text-primary-500 text-center">
-	You have successfully submitted the form.
-</p>
-<p class="text-xl lg:text-2xl  leading-tight mb-8  text-primary-500 text-center">
-	We will be in touch soon.
-</p>
+<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4">
+	Frequently Asked questions
+</h1>
+<p class="text-xl lg:text-2xl  leading-tight mb-8  text-primary-500 text-center" />
+<p class="text-xl lg:text-2xl  leading-tight mb-8  text-primary-500 text-center" />

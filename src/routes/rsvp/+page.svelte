@@ -63,7 +63,7 @@
 			/>
 			<!-- <label class="label" for="message">Message</label> -->
 			<input
-				class="input m-2 bg-secondary-600 text-primary-500 text-base"
+				class="input m-2 bg-secondary-500 text-primary-500 text-base"
 				name="message"
 				id="message"
 				required

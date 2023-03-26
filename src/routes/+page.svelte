@@ -8,7 +8,7 @@
 </script>
 
 <header class="bg-cover bg-center relative" style="background-image: url('hero.jpg');">
-	<div class="absolute top-0 left-0 right-0 bottom-0 text-secondary-200 opacity-50" />
+	<div class="absolute top-0 left-0 right-0 bottom-0 text-secondary-200 " />
 	<div class="container mx-auto py-56 px-4 relative text-center">
 		<h1 style="font-size: 80px !important;" class="text-10xl text-secondary-200 leading-tight mb-2">
 			Ali & Dan
