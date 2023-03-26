@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex flex-col md:flex-row">
-	<div class="md:w-1/2 max-w-sm">
+	<div class="lg:w-1/5 md:w-1/2 max-w-sm">
 		<img src={imageUrl} alt={title} class="w-full" />
 	</div>
 	<div class="md:w-1/2 p-4">

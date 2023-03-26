@@ -32,9 +32,9 @@
 				and quaint villages, this region is a treasure trove of natural beauty and charm.
 			</p>
 			<ImageCopyBlock
-				imageUrl="/flowers.jpg"
-				title="Lorem ipsum dolor sit amet"
-				bodyText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus mauris. Donec euismod nulla ut justo commodo, ut iaculis libero tempor. Sed ut ante nisl."
+				imageUrl="/IMG_7416BW.jpg"
+				title=" ''We look forward to the day when we can share our love and commitment with all of the special people in our lives.'' "
+				bodyText="-love Ali & Dan"
 			/>
 			<p>
 				Our wedding will take place at a stunning venue in Cornwall, which we chose for its stunning
