@@ -31,11 +31,10 @@
 	<slot />
 
 	<svelte:fragment slot="pageFooter"
-		><footer class="bg-secondary-600 text-primary-600 py-8 px-4">
+		><footer class="bg-secondary-400 text-primary-600 py-8 px-4">
 			<div class="container mx-auto justify-between text-center h-50">
 				<div class="w-full sm:w-auto  text-center">
 					<p>&copy; 2023 Dan & Ali</p>
-					<br />
 					<p class="italic">Created by us, for us, with love</p>
 				</div>
 			</div>

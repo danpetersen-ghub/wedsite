@@ -7,6 +7,36 @@ body {
   background-color: rgb(var(--color-secondary-50)) !important;
 }
 
+/* .svg {
+  background-image: url('/flower1.svg');
+  /* background-color: rgb(var(--color-primary-400)); */
+/* background-size: 50%;
+background-repeat: no-repeat;
+background-position: right;
+background-blend-mode: soft-light;
+transform: rotate(90deg); */
+/* } */
+
+.svg-top {
+  background-image: url('/flower1.svg');
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-blend-mode: soft-light;
+  margin-top: 5%;
+
+}
+
+.svg-bottom {
+  background-image: url('/flower2.svg');
+  background-size: 15%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-blend-mode: soft-light;
+  margin-bottom: 5%;
+}
+
+
 :root {
   --theme-font-family-base: sans-serif;
   --theme-font-family-heading: 'Rozha One', serif;
