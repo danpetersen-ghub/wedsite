@@ -2,9 +2,9 @@
 	import { IconChecks } from '@tabler/icons-svelte';
 </script>
 
-<header class="bg-cover bg-center relative" style="background-image: url('hero.jpg');">
+<header class="bg-cover background-img" style="background-image: url('/images/IMG_2223.jpg');">
 	<div class="absolute top-0 left-0 right-0 bottom-0 bg-gray-600 opacity-0" />
-	<div class="container mx-auto py-32 px-4 relative text-center">
+	<div class="container mx-auto py-64 px-4 relative text-center">
 		<!-- <h1 class="text-4xl lg:text-6xl  text-white leading-tight mb-4">Sucess <IconChecks /></h1>
 		<p class="text-xl lg:text-2xl text-white leading-tight mb-8 italic">
 			You have submitted an RSVP, thank you!
@@ -14,9 +14,9 @@
 
 <div class="container mx-auto p-8 my-8 text-gray-600 text-left" />
 <h1 class="mb-0 text-primary-500 text-center">Your Details</h1>
-<div class="flex items-center justify-center w-1/4">
+<div class="flex items-center justify-center">
 	<form
-		class="md:w-1/2 rounded px-8 pt-6 pb-8 mb-4"
+		class="md:w-1/2 rounded px-8 pt-6 pb-8 mb-4 "
 		name="rsvp-form"
 		method="POST"
 		data-netlify="true"
@@ -55,10 +55,32 @@
 		<input
 			class="input pt-2 pb-2 m-2 bg-primary-400 text-secondary-500 text-lg"
 			type="submit"
-			value="Send"
+			value="SEND"
 			style="border-radius: 5px;margin-top: 20px;"
 		/>
 	</form>
 </div>
 <p class="text-xl lg:text-2xl  leading-tight mb-8  text-primary-500 text-center" />
 <p class="text-xl lg:text-2xl  leading-tight mb-8  text-primary-500 text-center" />
+
+<style>
+	.background-img {
+		background-position: top;
+		background-repeat: no-repeat;
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+		filter: grayscale(100%);
+	}
+	@media screen and (max-width: 600px) {
+		.background-img {
+			background-position: 0px 10px !important;
+			background-repeat: no-repeat;
+		}
+	}
+
+	@media screen and (min-width: 900px) {
+		.background-img {
+			background-position: 0px -400px !important;
+			background-repeat: no-repeat;
+		}
+	}
+</style>

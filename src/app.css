@@ -7,16 +7,6 @@ body {
   background-color: rgb(var(--color-secondary-50)) !important;
 }
 
-/* .svg {
-  background-image: url('/flower1.svg');
-  /* background-color: rgb(var(--color-primary-400)); */
-/* background-size: 50%;
-background-repeat: no-repeat;
-background-position: right;
-background-blend-mode: soft-light;
-transform: rotate(90deg); */
-/* } */
-
 .svg-top {
   background-image: url('/flower1.svg');
   background-size: 20%;

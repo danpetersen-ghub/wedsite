@@ -7,7 +7,10 @@
 	import ImageCopyBlock from '../components/ImageCopyBlock.svelte';
 </script>
 
-<header class="bg-cover bg-center relative" style="background-image: url('hero.jpg');">
+<header
+	class="bg-cover bg-center relative background-img"
+	style="background-image: url('images/lake-district.png');"
+>
 	<div class="absolute top-0 left-0 right-0 bottom-0 text-secondary-200 " />
 	<div class="container mx-auto py-56 px-4 relative text-center">
 		<h1 style="font-size: 80px !important;" class="text-10xl text-secondary-200 leading-tight mb-2">
@@ -51,3 +54,23 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	@media screen and (max-width: 600px) {
+		.background-img {
+			background-position: 0px 0px !important;
+		}
+	}
+	.background-img {
+		background-position: 0px -100px;
+		background-repeat: no-repeat;
+		/* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+		/* filter: grayscale(100%);  */
+	}
+
+	@media screen and (min-width: 1200px) {
+		.background-img {
+			background-position: 0px -400px !important;
+		}
+	}
+</style>
