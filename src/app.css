@@ -26,6 +26,22 @@ body {
   margin-bottom: 5%;
 }
 
+@media screen and (max-width: 600px) {
+  .svg-top {
+    background-image: url('/flower2.svg');
+    background-size: 50%;
+    background-position: right top;
+  }
+
+  .svg-bottom {
+    background-size: 15%;
+    background-image: url('/flower1.svg');
+    background-position: left bottom;
+  }
+}
+
+@media screen and (min-width: 1200px) {}
+
 
 :root {
   --theme-font-family-base: sans-serif;
