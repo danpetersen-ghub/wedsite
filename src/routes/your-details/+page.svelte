@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { IconChecks } from '@tabler/icons-svelte';
 </script>
 
 <header class="bg-cover background-img" style="background-image: url('/images/IMG_2223.jpg');">
@@ -17,7 +16,7 @@
 <div class="flex items-center justify-center">
 	<form
 		class="md:w-1/2 rounded px-8 pt-6 pb-8 mb-4 "
-		name="rsvp-form"
+		name="your-details-form"
 		method="POST"
 		data-netlify="true"
 		action="/success"
