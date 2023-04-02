@@ -71,7 +71,7 @@
 	}
 	@media screen and (max-width: 600px) {
 		.background-img {
-			background-position: 0px 10px !important;
+			background-position: 0px 0px !important;
 			background-repeat: no-repeat;
 		}
 	}
