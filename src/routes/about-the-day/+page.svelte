@@ -1,7 +1,10 @@
 <script lang="ts">
 </script>
 
-<header class="bg-cover background-img" style="background-image: url('images/ali-beach.png');">
+<header
+	class="bg-cover background-img"
+	style="background-image: url('images/wildflower-medow-1.jpg');"
+>
 	<div class="absolute top-0 left-0 right-0 bottom-0 bg-gray-600 opacity-0" />
 	<div class="container mx-auto py-32 px-4 relative text-center">
 		<h1 class="text-4xl lg:text-6xl  text-white leading-tight mb-4">About the Day</h1>
@@ -26,10 +29,11 @@
 
 <style>
 	.background-img {
-		background-position: 0px -250px;
+		background-position: 0px -1350px !important;
 		background-repeat: no-repeat;
-		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-		filter: grayscale(100%);
+		/* Safari 6.0 - 9.0 */
+		/* -webkit-filter: grayscale(100%);
+		filter: grayscale(100%); */
 	}
 	@media screen and (max-width: 600px) {
 		.background-img {
@@ -40,7 +44,7 @@
 
 	@media screen and (min-width: 900px) {
 		.background-img {
-			background-position: 0px -450px !important;
+			background-position: 0px -1350px !important;
 			background-repeat: no-repeat;
 		}
 	}
