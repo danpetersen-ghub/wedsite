@@ -3,8 +3,17 @@ body {
   @apply h-full overflow-hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(var(--color-secondary-50)) !important;
+}
+
+@font-face {
+  font-family: 'Vidaloka';
+  src: url('/fonts/Vidaloka.woff') format('ttf');
 }
 
 .svg-top {
@@ -45,7 +54,7 @@ body {
 
 :root {
   --theme-font-family-base: sans-serif;
-  --theme-font-family-heading: 'Rozha One', serif;
+  --theme-font-family-heading: 'Vidaloka', sans-serif;
 }
 
 .example-primary {
