@@ -5,6 +5,7 @@
 	import '@skeletonlabs/skeleton/styles/all.css';
 	import '../app.postcss';
 	import ImageCopyBlock from '../components/ImageCopyBlock.svelte';
+	import QA from '../components/q-and-aBlock.svelte';
 	import { IconMail } from '@tabler/icons-svelte';
 </script>
 
@@ -66,7 +67,7 @@
 <!-- About -->
 <div
 	id="about-the-day"
-	class="bg-primary-50  flex items-center justify-center "
+	class="bg-primary-50  flex items-center justify-center venue "
 	style="height: 50vh;"
 >
 	<div class="container  mx-auto p-8 space-y-8">
@@ -126,43 +127,24 @@
 		<h1 class="text-4xl lg:text-6xl  text-primary-600 text-center leading-tight mt-4  mb-6 ">
 			Frequently Asked Questions
 		</h1>
-		<div>
-			<h3 class="text-4xl lg:text-6xl   text-primary-600 text-left leading-tight mt-4">
-				Should I bring a waterproof jacket or umbrella?
-			</h3>
-			<p class="text-xl lg:text-2xl  leading-tight mb-6   text-primary-600 text-left">
-				Yes please bring a coat the weather in Cornwall can be unpredictable!
-			</p>
-			<hr />
-		</div>
-		<div>
-			<h3 class="text-4xl lg:text-6xl  text-primary-600 text-left leading-tight mt-4">
-				Should we eat before the ceremony?
-			</h3>
-			<p class="text-xl lg:text-2xl  leading-tight mb-6   text-primary-600 text-left">
-				If you are a greedy guts like Dan, then we recommend a light lunch, or late breakfast before
-				the Ceremony at 2PM.
-			</p>
-			<hr />
-		</div>
-		<div>
-			<h3 class="text-4xl lg:text-6xl  text-primary-600 text-left leading-tight mt-4">
-				Is there a dress code?
-			</h3>
-			<p class="text-xl lg:text-2xl  leading-tight mb-6  text-primary-600 text-left">
-				Nope, while we all want to you look fantastic on the day, your comfort is paramount. Usual
-				Wedding attire is fine!
-			</p>
-			<!-- <hr /> -->
-		</div>
-
-		<!-- <div>
-			<h3 class="text-4xl lg:text-6xl  text-primary-600 text-left leading-tight mt-4">
-				What is the question?
-			</h3>
-			<p class="text-xl lg:text-2xl  leading-tight mb-6  text-primary-600 text-left">answer here!</p>
-			<hr />
-		</div> -->
+		<QA
+			question="Should I bring a waterproof jacket or umbrella?"
+			answer="Yes please bring a coat the weather in Cornwall can be unpredictable!"
+			isLast="no"
+		/>
+		<QA
+			question="Should we eat before the ceremony?"
+			answer="If you are a greedy guts like Dan, then we recommend a light lunch, or late breakfast before
+		the Ceremony at 2PM."
+			isLast="no"
+		/>
+		<QA
+			question="Is there a dress code?"
+			answer="Nope, while we all want to you look fantastic on the day, your comfort is paramount. Usual
+		Wedding attire is fine!"
+			isLast="yes"
+		/>
+		<!-- <QA question="123?" answer="ABC" /> -->
 	</div>
 </div>
 
@@ -203,6 +185,9 @@
 		.wedding-img {
 			background-position: -200px -00px !important;
 		}
+		.venue {
+			height: 75vh !important;
+		}
 	}
 	.background-img {
 		background-position: 0px -100px;
@@ -214,6 +199,9 @@
 		background-position: bottom;
 		background-repeat: no-repeat;
 	}
+	.venue {
+		height: 50vh;
+	}
 	.wedding-img {
 		background-position: center;
 		background-repeat: no-repeat;
@@ -224,6 +212,7 @@
 	@media screen and (min-width: 1200px) {
 		.background-img {
 			background-position: 0px -400px !important;
+			background-image: url('images/lake-district.png') !important;
 		}
 		.wedding-img {
 			min-height: 75vh !important;
