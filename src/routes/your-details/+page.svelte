@@ -103,15 +103,15 @@
 		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 		filter: grayscale(100%);
 	}
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 900px) {
 		.background-img {
 			background-position: 0px 0px !important;
 		}
 	}
 
-	@media screen and (min-width: 1100px) {
+	@media screen and (min-width: 1200px) {
 		.background-img {
-			background-position: 0px -450px !important;
+			background-position: 0px -600px !important;
 		}
 	}
 </style>

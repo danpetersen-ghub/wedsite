@@ -66,7 +66,7 @@
 
 <!-- About -->
 <div
-	id="about-the-day"
+	id="venue"
 	class="bg-primary-50  flex items-center justify-center venue "
 	style="height: 50vh;"
 >
@@ -122,7 +122,7 @@
 </div>
 
 <!-- FAqs -->
-<div id="#faqs" class="bg-primary-50" style="min-height: 70vh;">
+<div id="faqs" class="bg-primary-50" style="min-height: 70vh;">
 	<div class="container my-auto mx-auto p-8 space-y-8 ">
 		<h1 class="text-4xl lg:text-6xl  text-primary-600 text-center leading-tight mt-4  mb-6 ">
 			Frequently Asked Questions
