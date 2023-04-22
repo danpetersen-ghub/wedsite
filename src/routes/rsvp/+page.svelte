@@ -3,7 +3,7 @@
 
 <header
 	class="bg-cover bg-center relative background-img"
-	style="background-image: url('/images/ali-graduation.png');"
+	style="background-image: url('images/wildflower-medow-1.jpg');"
 >
 	<div class="absolute top-0 left-0 right-0 bottom-0 bg-gray-600 opacity-50" />
 	<div class="container mx-auto py-32 px-4 relative text-center">
@@ -92,12 +92,13 @@
 	.background-img {
 		background-position: 0px -200px;
 		background-repeat: no-repeat;
-		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-		filter: grayscale(100%);
+		/* -webkit-filter: grayscale(100%);  */
+		/* Safari 6.0 - 9.0 */
+		/* filter: grayscale(100%); */
 	}
 	@media screen and (min-width: 1200px) {
 		.background-img {
-			background-position: 0px -600px !important;
+			background-position: 0px -1600px !important;
 		}
 	}
 </style>
