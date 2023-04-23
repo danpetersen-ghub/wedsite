@@ -11,8 +11,7 @@
 	</div>
 </header>
 
-<div class="container mx-auto p-8 my-8 text-gray-600 text-left" />
-<h1 class="mb-0 text-primary-500 text-center">Your Details</h1>
+<h1 class="mb-0 text-primary-500 text-center my-8">Your Details</h1>
 <div class="flex items-center justify-center">
 	<form
 		class="md:w-1/2 rounded px-8 pt-6 pb-8 mb-4 "
