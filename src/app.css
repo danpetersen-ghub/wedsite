@@ -1,6 +1,7 @@
 html,
 body {
   @apply h-full overflow-hidden;
+
 }
 
 html {
@@ -12,8 +13,8 @@ body {
 }
 
 @font-face {
-  font-family: 'Vidaloka';
-  src: url('/fonts/Vidaloka.woff') format('ttf');
+  font-family: 'Vidaloka', serif;
+  src: url('/fonts/Vidaloka-Regular.ttf');
 }
 
 .svg-top {
