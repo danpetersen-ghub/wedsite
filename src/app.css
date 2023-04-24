@@ -53,7 +53,7 @@ body {
 @media screen and (min-width: 1200px) {
   .background-img {
     background-position: 0px -400px !important;
-    background-image: url("images/lakedistrict.png") !important;
+    background-image: url("/images/lakedistrict.png") !important;
   }
 }
 
