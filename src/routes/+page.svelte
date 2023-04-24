@@ -210,10 +210,10 @@
 	}
 
 	@media screen and (min-width: 1200px) {
-		.background-img {
+		/* .background-img {
 			background-position: 0px -400px !important;
 			background-image: url('images/lakedistrict.png') !important;
-		}
+		} */
 		.wedding-img {
 			min-height: 75vh !important;
 			background-position: top;
