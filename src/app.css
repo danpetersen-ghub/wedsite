@@ -12,12 +12,16 @@ body {
   background-color: rgb(var(--color-secondary-50)) !important;
 }
 
-@font-face {
-  font-family: 'Vidaloka', serif;
-  src: url('/fonts/Vidaloka-Regular.ttf');
+.flex-auto.w-full.h-full.flex.overflow-hidden {
+  margin-top: -50px;
 }
 
-.svg-top {
+/* @font-face {
+  font-family: 'Vidaloka', serif;
+  src: url('/fonts/Vidaloka-Regular.ttf');
+} */
+
+/* .svg-top {
   background-image: url('/flower1.svg');
   background-size: 20%;
   background-repeat: no-repeat;
@@ -48,20 +52,15 @@ body {
     background-image: url('/flower1.svg');
     background-position: left bottom;
   }
-}
+} */
 
-@media screen and (min-width: 1200px) {
-  .background-img {
-    background-position: 0px -400px !important;
-    background-image: url("/images/lakedistrict.png") !important;
-  }
-}
+@media screen and (min-width: 1200px) {}
 
 
-:root {
+/* :root {
   --theme-font-family-base: sans-serif;
   --theme-font-family-heading: 'Vidaloka', sans-serif;
-}
+} */
 
 .example-primary {
   color: #d59d4a;
