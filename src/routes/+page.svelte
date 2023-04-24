@@ -12,48 +12,48 @@
 <!-- Banner Section -->
 <header
 	class="bg-cover bg-center relative background-img"
-	style="background-image: url('images/lakes.JPG');"
+	style="background-image: url('images/alex-wedding-2.jpeg');"
 >
 	<div class="absolute top-0 left-0 right-0 bottom-0 text-secondary-200 " />
-	<div class="container mx-auto py-56 px-4 relative text-center">
+	<div class="container mx-auto  py-44 px-4 relative text-center">
 		<h1
 			style="font-size: 80px !important;"
-			class="text-10xl text-secondary-200 leading-tight mb-2 pt-20"
+			class="text-10xl text-secondary-200 leading-tight mt-60"
 		>
 			Ali & Dan
 		</h1>
-		<p class="text-2xl lg:text-3xl text-secondary-200 leading-tight mb-8">15.06.25</p>
+		<h3 class=" text-secondary-200 leading-tight mb-8 pt-6 ">15th June 2024</h3>
 	</div>
 </header>
 <!-- Banner Section End -->
 
 <!-- Introduction -->
-<div class="svg-top ">
+<div class="svg-top bg-primary-50  ">
 	<div class=" svg-bottom">
-		<div class="container p-8 space-y-8 text-tertiary-400 mx-auto lg:pl-20 ">
-			<h1 class="text-primary-600 ">Welcome</h1>
-			<p>
+		<div class="container p-16 space-y-8 text-tertiary-400 mx-auto lg:pl-20  ">
+			<!-- <h2 class="pt-6">We are getting married!</h2> -->
+			<p class="text-primary-500">
 				Welcome to our wedding website, where we invite you to join us for the celebration of our
 				love in the beautiful coastal region of Cornwall. We are thrilled to have you as part of our
 				special day and cannot wait to share this momentous occasion with our loved ones.
 			</p>
-			<p>
+			<p class="text-primary-500">
 				For those who have never visited Cornwall, we can promise you an unforgettable experience.
 				Nestled in the southwestern part of England, Cornwall boasts some of the most breathtaking
 				landscapes in the country. From the rugged cliffs and picturesque coves to the rolling hills
 				and quaint villages, this region is a treasure trove of natural beauty and charm.
 			</p>
 			<ImageCopyBlock
-				imageUrl="/IMG_7416BW.jpg"
+				imageUrl="images/IMG_7416BW.jpg"
 				title=" ''We look forward to the day when we can share our love and commitment with all of the special people in our lives.'' "
 				bodyText="-love Ali & Dan"
 			/>
-			<p>
+			<p class="text-primary-500">
 				Our wedding will take place at a stunning venue in Cornwall, which we chose for its stunning
 				sea views and rustic charm. We are confident that you will fall in love with this location
 				just as much as we did.
 			</p>
-			<p>
+			<p class="text-primary-500">
 				To make your stay in Cornwall as comfortable as possible, we have put together a list of
 				accommodation options that are located in close proximity to our wedding venue. From cozy
 				B&Bs to luxurious hotels, you can find a range of options that cater to different budgets
@@ -65,11 +65,7 @@
 </div>
 
 <!-- About -->
-<div
-	id="venue"
-	class="bg-primary-50  flex items-center justify-center venue "
-	style="height: 50vh;"
->
+<div id="venue" class="  flex items-center justify-center venue " style="height: 50vh;">
 	<div class="container  mx-auto p-8 space-y-8">
 		<h2 class="text-primary-600">The Venue</h2>
 		<p class="text-primary-600">
@@ -177,7 +173,7 @@
 <style>
 	@media screen and (max-width: 600px) {
 		.background-img {
-			background-position: 0px 0px !important;
+			background-position: -290px 0px !important;
 		}
 		.beach {
 			background-position: 0px -500px !important;
@@ -190,7 +186,7 @@
 		}
 	}
 	.background-img {
-		background-position: 0px -100px;
+		background-position: 0px 0px;
 		background-repeat: no-repeat;
 		/* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 		/* filter: grayscale(100%);  */
@@ -210,10 +206,9 @@
 	}
 
 	@media screen and (min-width: 1200px) {
-		/* .background-img {
-			background-position: 0px -400px !important;
-			background-image: url('images/lakedistrict.png') !important;
-		} */
+		.background-img {
+			background-position: 0px -240px !important;
+		}
 		.wedding-img {
 			min-height: 75vh !important;
 			background-position: top;

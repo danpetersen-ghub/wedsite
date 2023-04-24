@@ -9,12 +9,12 @@
 
 <AppShell>
 	<svelte:fragment slot="header">
-		<div class="  variant-soft-primary">
+		<div class=" " style="opacity: 100;z-index: 10;">
 			<span class="relative">
 				<button class="btn " use:menu={{ menu: 'nav-items' }}>
 					<IconMenu2 />
 				</button>
-				<nav class="list-nav card p-4 w-64 bg-secondary-200 text-primary-600" data-menu="nav-items">
+				<nav class="list-nav card p-4 w-64  text-primary-600" data-menu="nav-items">
 					<ul>
 						<li><a href="/">Home</a></li>
 						<!-- <li><a href="#venue">Venue</a></li>
