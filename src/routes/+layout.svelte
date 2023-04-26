@@ -11,11 +11,11 @@
 	<svelte:fragment slot="header">
 		<div class=" " style="opacity: 100;z-index: 10;">
 			<span class="relative">
-				<button class="btn " use:menu={{ menu: 'nav-items' }}>
+				<button class="btn" use:menu={{ menu: 'nav-items' }}>
 					<IconMenu2 />
 				</button>
-				<nav class="list-nav card p-4 w-64  text-primary-600" data-menu="nav-items">
-					<ul>
+				<nav class="menu " data-menu="nav-items">
+					<ul class="bg-secondary-50 list-nav card p-4 text-primary-600">
 						<li><a href="/">Home</a></li>
 						<!-- <li><a href="#venue">Venue</a></li>
 						<li><a href="#travel-and-accommodation">Travel and Accommodation</a></li>
@@ -34,7 +34,7 @@
 	<slot />
 
 	<svelte:fragment slot="pageFooter"
-		><footer class="variant-soft-primary text-primary-600 py-8 px-4">
+		><footer class="variant-soft-primary text-primary-600 py-8 px-4 py-24">
 			<div class="container mx-auto justify-between text-center h-50">
 				<div class="w-full sm:w-auto  text-center">
 					<p>&copy; 2023 Dan & Ali</p>

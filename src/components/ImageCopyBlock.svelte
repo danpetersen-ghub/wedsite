@@ -10,6 +10,6 @@
 	</div>
 	<div class="md:w-1/2 p-4">
 		<h2 class="text-2xl text-primary-600 mb-4">{title}</h2>
-		<p class="text-gray-600">{bodyText}</p>
+		<p class="text-secondary-900">{bodyText}</p>
 	</div>
 </div>

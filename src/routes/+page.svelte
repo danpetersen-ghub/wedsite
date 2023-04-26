@@ -29,44 +29,42 @@
 
 <!-- Introduction -->
 <div class="svg-top bg-primary-50  ">
-	<div class=" svg-bottom">
-		<div class="container p-16 space-y-8 text-tertiary-400 mx-auto lg:pl-20  ">
-			<!-- <h2 class="pt-6">We are getting married!</h2> -->
-			<p class="text-primary-500">
-				Welcome to our wedding website, where we invite you to join us for the celebration of our
-				love in the beautiful coastal region of Cornwall. We are thrilled to have you as part of our
-				special day and cannot wait to share this momentous occasion with our loved ones.
-			</p>
-			<p class="text-primary-500">
-				For those who have never visited Cornwall, we can promise you an unforgettable experience.
-				Nestled in the southwestern part of England, Cornwall boasts some of the most breathtaking
-				landscapes in the country. From the rugged cliffs and picturesque coves to the rolling hills
-				and quaint villages, this region is a treasure trove of natural beauty and charm.
-			</p>
-			<ImageCopyBlock
-				imageUrl="images/IMG_7416BW.jpg"
-				title=" ''We look forward to the day when we can share our love and commitment with all of the special people in our lives.'' "
-				bodyText="-love Ali & Dan"
-			/>
-			<p class="text-primary-500">
-				Our wedding will take place at a stunning venue in Cornwall, which we chose for its stunning
-				sea views and rustic charm. We are confident that you will fall in love with this location
-				just as much as we did.
-			</p>
-			<p class="text-primary-500">
-				To make your stay in Cornwall as comfortable as possible, we have put together a list of
-				accommodation options that are located in close proximity to our wedding venue. From cozy
-				B&Bs to luxurious hotels, you can find a range of options that cater to different budgets
-				and preferences. We highly recommend booking your accommodation as soon as possible, as
-				Cornwall is a popular holiday destination and accommodation can fill up quickly.
-			</p>
-		</div>
+	<div class="container  mx-auto py-32 p-8 space-y-8 text-tertiary-600 ">
+		<!-- <h2 class="pt-6">We are getting married!</h2> -->
+		<p class="text-primary-600">
+			Welcome to our wedding website, where we invite you to join us for the celebration of our love
+			in the beautiful coastal region of Cornwall. We are thrilled to have you as part of our
+			special day and cannot wait to share this momentous occasion with our loved ones.
+		</p>
+		<p class="text-primary-600">
+			For those who have never visited Cornwall, we can promise you an unforgettable experience.
+			Nestled in the southwestern part of England, Cornwall boasts some of the most breathtaking
+			landscapes in the country. From the rugged cliffs and picturesque coves to the rolling hills
+			and quaint villages, this region is a treasure trove of natural beauty and charm.
+		</p>
+		<ImageCopyBlock
+			imageUrl="images/IMG_7416BW.jpg"
+			title=" ''We look forward to the day when we can share our love and commitment with all of the special people in our lives.'' "
+			bodyText="-love Ali & Dan"
+		/>
+		<p class="text-primary-600">
+			Our wedding will take place at a stunning venue in Cornwall, which we chose for its stunning
+			sea views and rustic charm. We are confident that you will fall in love with this location
+			just as much as we did.
+		</p>
+		<p class="text-primary-600">
+			To make your stay in Cornwall as comfortable as possible, we have put together a list of
+			accommodation options that are located in close proximity to our wedding venue. From cozy B&Bs
+			to luxurious hotels, you can find a range of options that cater to different budgets and
+			preferences. We highly recommend booking your accommodation as soon as possible, as Cornwall
+			is a popular holiday destination and accommodation can fill up quickly.
+		</p>
 	</div>
 </div>
 
 <!-- About -->
-<div id="venue" class="  flex items-center justify-center venue " style="height: 50vh;">
-	<div class="container  mx-auto p-8 space-y-8">
+<div id="venue" class="flex items-center justify-center venue" style="height: 50vh;">
+	<div class="container mx-auto p-8 space-y-8">
 		<h2 class="text-primary-600">The Venue</h2>
 		<p class="text-primary-600">
 			Steeped in history and set amidst spectacular wooded countryside, Launcells Barton is a
@@ -88,8 +86,8 @@
 </div>
 
 <!-- Travel -->
-<div id="travel-and-accommodation" class=" bg-secondary-100 container mx-auto p-8 space-y-8 ">
-	<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4">
+<div id="travel-and-accommodation" class=" bg-secondary-100 container mx-auto p-8 space-y-8 py-32">
+	<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4 ">
 		Travel and Accommodation
 	</h1>
 	<p class="text-xl lg:text-2xl  leading-tight mb-8  text-secondary-900 text-left">
@@ -119,7 +117,7 @@
 
 <!-- FAqs -->
 <div id="faqs" class="bg-primary-50" style="min-height: 70vh;">
-	<div class="container my-auto mx-auto p-8 space-y-8 ">
+	<div class="container my-auto mx-auto p-8 space-y-8 py-32 ">
 		<h1 class="text-4xl lg:text-6xl  text-primary-600 text-center leading-tight mt-4  mb-6 ">
 			Frequently Asked Questions
 		</h1>
@@ -155,7 +153,7 @@
 	class=" bg-secondary-100 flex items-center justify-center"
 	style="height: 50vh;"
 >
-	<div class="container  mx-auto p-8 space-y-8 ">
+	<div class="container  mx-auto p-8 space-y-8  py-32">
 		<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4">
 			Contact Us
 		</h1>
@@ -205,7 +203,7 @@
 		background-size: cover;
 	}
 
-	@media screen and (min-width: 1200px) {
+	@media screen and (min-width: 1600px) {
 		.background-img {
 			background-position: 0px -240px !important;
 		}
