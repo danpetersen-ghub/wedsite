@@ -17,7 +17,7 @@
 		name="your-details-form"
 		method="POST"
 		data-netlify="true"
-		action="/success?your-details-form"
+		action="/success"
 		style=""
 		enctype="application/x-www-form-urlencoded"
 	>
