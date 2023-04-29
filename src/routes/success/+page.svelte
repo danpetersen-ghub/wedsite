@@ -9,7 +9,8 @@
 	<div class="container mx-auto py-32 px-4 relative text-center min-h-[90vh]">
 		<h1 class="text-6xl  text-white leading-tight mt-16 mb-4">Sucess <IconChecks /></h1>
 		<p class="text-xl lg:text-2xl text-white leading-tight mb-8 italic">
-			You have successfully submitted the form. <br />
+			You have successfully submitted the form.
+			<br />
 			We will be in touch soon.
 		</p>
 	</div>
