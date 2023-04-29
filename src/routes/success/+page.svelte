@@ -2,22 +2,37 @@
 	import { IconChecks } from '@tabler/icons-svelte';
 </script>
 
-<header class="bg-cover bg-center relative" style="background-image: url('hero.jpg');">
-	<div class="absolute top-0 left-0 right-0 bottom-0 bg-gray-600 opacity-0" />
-	<div class="container mx-auto py-32 px-4 relative text-center">
-		<!-- <h1 class="text-4xl lg:text-6xl  text-white leading-tight mb-4">Sucess <IconChecks /></h1>
+<header
+	class="bg-cover bg-center relative background-img"
+	style="background-image: url('images/ali-artie-kitchen.png');"
+>
+	<div class="container mx-auto py-32 px-4 relative text-center min-h-[90vh]">
+		<h1 class="text-6xl  text-white leading-tight mt-16 mb-4">Sucess <IconChecks /></h1>
 		<p class="text-xl lg:text-2xl text-white leading-tight mb-8 italic">
-			You have submitted an RSVP, thank you!
-		</p> -->
+			You have successfully submitted the form. <br />
+			We will be in touch soon.
+		</p>
 	</div>
 </header>
 
-<div class="container mx-auto p-8 my-8 text-gray-600 text-left" />
+<style>
+	.background-img {
+		background-position: 0px 0px;
+		background-repeat: no-repeat;
+		/* -webkit-filter: grayscale(100%);  */
+		/* Safari 6.0 - 9.0 */
+		/* filter: grayscale(100%); */
+	}
+	@media screen and (max-width: 900px) {
+		.background-img {
+			background-position: 0px 0px !important;
+		}
+	}
 
-<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4">Success</h1>
-<p class="text-xl lg:text-2xl  leading-tight mb-8  text-primary-500 text-center">
-	You have successfully submitted the form.
-</p>
-<p class="text-xl lg:text-2xl  leading-tight mb-8  text-primary-500 text-center">
-	We will be in touch soon.
-</p>
+	@media screen and (min-width: 2000px) {
+		.background-img {
+			background-position: 0px -1200px !important;
+			/* min-height: 700px; */
+		}
+	}
+</style>

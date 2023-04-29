@@ -21,7 +21,7 @@
 		style=""
 		enctype="application/x-www-form-urlencoded"
 	>
-		<input class="input " type="hidden" name="form-name" value="rsvp-form" />
+		<input class="input " type="hidden" name="form-name" value="yourDetails-form" />
 		<h2 class="mb-0 text-primary-500 text-left">About You</h2>
 		<!-- <label class="label" for="name">Name</label> -->
 		<input
