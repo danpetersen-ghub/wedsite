@@ -2,16 +2,15 @@
 </script>
 
 <header class="bg-cover background-img" style="background-image: url('/images/coast.jpg');">
-	<div class="absolute top-0 left-0 right-0 bottom-0 bg-gray-600 opacity-0" />
-	<div class="container mx-auto py-64 px-4 relative text-center">
-		<!-- <h1 class="text-4xl lg:text-6xl  text-white leading-tight mb-4">Sucess <IconChecks /></h1>
-		<p class="text-xl lg:text-2xl text-white leading-tight mb-8 italic">
-			You have submitted an RSVP, thank you!
-		</p> -->
+	<div class="container mx-auto py-32  px-4 relative text-center">
+		<h1 class="text-4xl lg:text-6xl  text-primary-600 leading-tight mb-4">Your Details</h1>
+		<p class="text-xl lg:text-2xl text-primary-600 leading-tight mb-8 italic">
+			Please share your address so can send a little something!
+		</p>
 	</div>
 </header>
 
-<h1 class="mb-0 text-primary-500 text-center my-8">Your Details</h1>
+<!-- <h1 class="mb-0 text-primary-500 text-center my-8">Your Details</h1> -->
 <div class="flex items-center justify-center">
 	<form
 		class="md:w-1/2 rounded px-8 pt-6 pb-8 mb-4 "
@@ -97,10 +96,11 @@
 
 <style>
 	.background-img {
-		background-position: 0px 0px !important;
+		background-position: 0px 0px;
 		background-repeat: no-repeat;
-		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-		filter: grayscale(100%);
+		/* -webkit-filter: grayscale(100%);  */
+		/* Safari 6.0 - 9.0 */
+		/* filter: grayscale(100%); */
 	}
 	@media screen and (max-width: 900px) {
 		.background-img {
@@ -108,9 +108,10 @@
 		}
 	}
 
-	@media screen and (min-width: 1200px) {
+	@media screen and (min-width: 1400px) {
 		.background-img {
-			background-position: 0px -600px !important;
+			background-position: 0px -700px !important;
+			/* min-height: 700px; */
 		}
 	}
 </style>

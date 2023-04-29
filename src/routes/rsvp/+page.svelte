@@ -5,7 +5,6 @@
 	class="bg-cover bg-center relative background-img"
 	style="background-image: url('images/wildflower-medow-1.jpg');"
 >
-	<div class="absolute top-0 left-0 right-0 bottom-0 bg-gray-600 opacity-50" />
 	<div class="container mx-auto py-32 px-4 relative text-center">
 		<h1 class="text-4xl lg:text-6xl  text-white leading-tight mb-4">RSVP!</h1>
 		<p class="text-xl lg:text-2xl text-white leading-tight mb-8 italic">15th June 2024</p>
@@ -16,9 +15,8 @@
 	<p class="">
 		We kindly request that all guests RSVP through the web form provided on our wedding website.
 		This is to ensure that we have an accurate headcount for our special day and can make the
-		necessary arrangements to accommodate everyone.
+		necessary arrangements to accommodate everyone
 	</p>
-
 	<p>
 		By RSVPing through the web form, you will receive all the necessary information about our
 		wedding, including the schedule of events, directions to the venue, and any updates or changes
