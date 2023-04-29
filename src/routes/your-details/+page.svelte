@@ -21,9 +21,10 @@
 		style=""
 		enctype="application/x-www-form-urlencoded"
 	>
-		<input class="input " type="hidden" name="form-name" value="yourDetails" />
-		<h2 class="mb-0 text-primary-500 text-left">About You</h2>
+		<input class="input " type="hidden" name="form-name" value="your-details-form" />
 		<!-- <label class="label" for="name">Name</label> -->
+
+		<h2 class="mb-0 text-primary-500 text-left">About You</h2>
 		<input
 			class="input m-2 bg-secondary-500 text-primary-500 text-base"
 			name="name"
