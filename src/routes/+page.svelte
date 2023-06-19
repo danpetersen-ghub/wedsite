@@ -28,26 +28,26 @@
 <!-- Banner Section End -->
 
 <!-- Introduction -->
-<div class="svg-top bg-primary-50  ">
-	<div class="container  mx-auto py-32 p-8 space-y-8 text-tertiary-600 ">
-		<!-- <h2 class="pt-6">We are getting married!</h2> -->
+<div id="intro" class="svg-top bg-primary-50  ">
+	<div class="container text-center mx-auto py-32 p-8 space-y-8 text-tertiary-600">
+		<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4 ">
+			We're getting married!
+		</h1>
 		<p class="text-primary-600">
-			Welcome to our wedding website, where we invite you to join us for the celebration of our love
-			in the beautiful coastal region of Cornwall. We are thrilled to have you as part of our
-			special day and cannot wait to share this momentous occasion with our loved ones.
+			Dan and Ali are tying the knot! Please save the date of the 15th of June 2024, so you can join
+			us in celebrating with a day of food, drink and dancing in beautiful Cornwall. We can’t wait
+			to have you with us!
 		</p>
 		<p class="text-primary-600">
-			For those who have never visited Cornwall, we can promise you an unforgettable experience.
-			Nestled in the southwestern part of England, Cornwall boasts some of the most breathtaking
-			landscapes in the country. From the rugged cliffs and picturesque coves to the rolling hills
-			and quaint villages, this region is a treasure trove of natural beauty and charm.
+			For now, some important admin - In order to receive your invite in the post please could you
+			fill in the <a href="/your-details">‘Your Details’ form here</a> so we have your address
 		</p>
-		<ImageCopyBlock
+		<!-- <ImageCopyBlock
 			imageUrl="images/IMG_7416BW.jpg"
 			title=" ''We look forward to the day when we can share our love and commitment with all of the special people in our lives.'' "
 			bodyText="-love Ali & Dan"
-		/>
-		<p class="text-primary-600">
+		/> -->
+		<!-- <p class="text-primary-600">
 			Our wedding will take place at a stunning venue in Cornwall, which we chose for its stunning
 			sea views and rustic charm. We are confident that you will fall in love with this location
 			just as much as we did.
@@ -58,21 +58,20 @@
 			to luxurious hotels, you can find a range of options that cater to different budgets and
 			preferences. We highly recommend booking your accommodation as soon as possible, as Cornwall
 			is a popular holiday destination and accommodation can fill up quickly.
-		</p>
+		</p> -->
 	</div>
 </div>
 
 <!-- About -->
-<div id="venue" class="flex items-center justify-center venue" style="height: 50vh;">
-	<div class="container mx-auto p-8 space-y-8">
-		<h2 class="text-primary-600">The Venue</h2>
+<div id="venue">
+	<div class="container text-center mx-auto py-32 p-8 space-y-8 text-tertiary-600">
+		<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4 ">
+			The Venue
+		</h1>
 		<p class="text-primary-600">
-			Steeped in history and set amidst spectacular wooded countryside, Launcells Barton is a
-			family-owned exclusive use wedding venue in Launcells, a small parish situated near Bude in
-			North Cornwall. Along with boutique accommodation in our historic country manor house, we
-			provide the perfect setting for both your wedding ceremony and reception, with the capacity to
-			seat up to 200 guests. From the minute you arrive to the moment you leave, you’ll be made to
-			feel like part of the family.
+			Both the wedding ceremony and reception will take place at a stunning venue near Bude in
+			Cornwall. Steeped in history and set amidst spectacular wooded countryside we are confident
+			that you will fall in love with Launcells Barton just as much as we have.
 		</p>
 		<p class="text-primary-600">
 			More info: <a href="https://launcellsbarton.co.uk/">launcellsbarton.co.uk</a>
@@ -86,23 +85,27 @@
 </div>
 
 <!-- Travel -->
-<div id="travel-and-accommodation" class=" bg-secondary-100 container mx-auto p-8 space-y-8 py-32">
-	<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4 ">
-		Travel and Accommodation
-	</h1>
-	<p class="text-xl lg:text-2xl  leading-tight mb-8  text-secondary-900 text-left">
-		The Wedding Location is convenient for Bude & Stratton only being a 5 minute drive. We recommend
-		booking a hotel early as it can get very busy in the summer months as it is a popular tourist
-		destination.
+<div id="travel-and-accommodation" class="svg-top bg-primary-50  ">
+	<div class="container text-center mx-auto py-32 p-8 space-y-8 text-tertiary-600">
+		<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4 ">
+			Travel and Accommodation
+		</h1>
+		<p class="text-xl lg:text-2xl  leading-tight mb-8  text-primary-600">
+			There is onsite parking at the venue, however, staying in campers is prohibited. Pre-booking
+			taxis is a must if you’re not planning on driving to the wedding, there’s no Ubers ‘round
+			these parts!
+			<br /><br />
+			Launcells Barton is very close to the coastal town of Bude and its neighbouring parish Stratton.
+			There are loads of hotels, self-catering cottages and campsites in the area which would make great
+			options if you’re looking to make a weekend away of your trip. We recommend booking early as it
+			can get very busy in the summer months.
 
-		<br /> <br />
-		Find hotels here:
-		<a href="https://www.google.com/maps/search/Hotels/@50.8308104,-4.5334727,14.29z"
-			>Hotels near Bude & Stratton</a
-		>
-	</p>
+			<br /> <br />
+			Find accommodation here:
+			<a href="https://www.visitbude.info/accommodation/">Hotels near Bude & Stratton</a>
+		</p>
 
-	<ImageCopyBlock
+		<!-- <ImageCopyBlock
 		imageUrl="./images/bude.jpg"
 		title=" Bude Town "
 		bodyText="Bude is a seaside town in north east Cornwall, England, in the civil parish of Bude-Stratton and at the mouth of the River Neet "
@@ -112,16 +115,17 @@
 		imageUrl="./images/Stratton-5359.jpg"
 		title="Stratton"
 		bodyText="Stratton is a market town in Cornwall, England situated near the coastal town of Bude and the market town of Holsworthy."
-	/>
+	/> -->
+	</div>
 </div>
 
 <!-- FAqs -->
-<div id="faqs" class="bg-primary-50" style="min-height: 70vh;">
+<!-- <div id="faqs" class="bg-primary-50" style="min-height: 70vh;">
 	<div class="container my-auto mx-auto p-8 space-y-8 py-32 ">
 		<h1 class="text-4xl lg:text-6xl  text-primary-600 text-center leading-tight mt-4  mb-6 ">
 			Frequently Asked Questions
-		</h1>
-		<QA
+		</h1> -->
+<!-- <QA
 			question="Should I bring a waterproof jacket or umbrella?"
 			answer="Yes please bring a coat the weather in Cornwall can be unpredictable!"
 			isLast="no"
@@ -137,10 +141,10 @@
 			answer="Nope, while we all want to you look fantastic on the day, your comfort is paramount. Usual
 		Wedding attire is fine!"
 			isLast="yes"
-		/>
-		<!-- <QA question="123?" answer="ABC" /> -->
-	</div>
-</div>
+		/> -->
+<!-- <QA question="123?" answer="ABC" /> -->
+<!-- </div>
+</div> -->
 
 <!-- Image -->
 <div class="wedding-img" style="background-image: url('/images/alex-wedding.JPG');">
@@ -148,21 +152,18 @@
 </div>
 
 <!-- Contact -->
-<div
-	id="contact-us"
-	class=" bg-secondary-100 flex items-center justify-center"
-	style="height: 50vh;"
->
+<div id="contact-us" class="  flex items-center justify-center" style="height: 50vh;">
 	<div class="container  mx-auto p-8 space-y-8  py-32">
 		<h1 class="text-4xl lg:text-6xl  text-primary-500 text-center leading-tight mb-4">
 			Contact Us
 		</h1>
-		<p class="text-xl lg:text-2xl  leading-tight mb-8 text-tertiary-400 text-center mb-8">
+		<p class="text-xl lg:text-2xl  leading-tight mb-8 text-primary-600 text-center mb-8">
 			Should you have any questions or queries you can contact us at any time.
 		</p>
-		<p class="text-xl lg:text-2xl  leading-tight mb-8 text-tertiary-400  text-center">
-			Contact us via <a href="mailto:danpetersen@hotmail.co.uk"
-				>Email:<IconMail style="display: inline;" /></a
+		<p class="text-xl lg:text-2xl  leading-tight mb-8 text-primary-600  text-center">
+			Contact us via <a
+				href="mailto:danpetersen@hotmail.co.uk?cc=25aliwright@gmail.com&subject=Ali%20%26%20Dan%20Wedding%20-%20Contact "
+				>Email: <IconMail style="display: inline;" /></a
 			>
 		</p>
 	</div>
@@ -174,7 +175,8 @@
 			background-position: -290px 0px !important;
 		}
 		.beach {
-			background-position: 0px -500px !important;
+			background-position: -420px -640px !important;
+			background-size: auto !important;
 		}
 		.wedding-img {
 			background-position: -200px -00px !important;
@@ -190,8 +192,9 @@
 		/* filter: grayscale(100%);  */
 	}
 	.beach {
-		background-position: bottom;
+		background-position: 0px -150px;
 		background-repeat: no-repeat;
+		background-size: cover;
 	}
 	.venue {
 		height: 50vh;
@@ -210,6 +213,12 @@
 		.wedding-img {
 			min-height: 75vh !important;
 			background-position: top;
+		}
+		.beach {
+			background-position: 0px -750px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			min-height: 75vh !important;
 		}
 	}
 </style>

@@ -2,18 +2,23 @@
 </script>
 
 <header class="bg-cover background-img" style="background-image: url('/images/coast.jpg');">
-	<div class="container mx-auto py-32  px-4 relative text-center">
-		<h1 class="text-4xl lg:text-6xl  text-primary-600 leading-tight mb-4">Your Details</h1>
-		<p class="text-xl lg:text-2xl text-primary-600 leading-tight mb-8 italic">
-			Please share your address so can send a little something!
-		</p>
+	<div class="container mx-auto py-32 mb-4  px-4 relative text-center">
+		<h1 class="text-4xl lg:text-6xl leading-tight mb-4">&nbsp;</h1>
+		<!-- <h1 class="text-4xl lg:text-6xl leading-tight mb-4">Your Details</h1>
+		<h3 class="text-xl lg:text-2xl leading-tight mb-8 ">
+			Please share your address so we can send your invite in the post
+		</h3> 
+		</h1> -->
 	</div>
 </header>
 
-<!-- <h1 class="mb-0 text-primary-500 text-center my-8">Your Details</h1> -->
+<h1 class="mb-0 text-primary-500 text-center my-16">Your Details</h1>
+<p class="text-xl lg:text-2xl mb-0 text-primary-500 text-center text-primary-500 my-6">
+	Please share your address so we can send your invite in the post
+</p>
 <div class="flex items-center justify-center">
 	<form
-		class="md:w-1/2 rounded px-8 pt-6 pb-8 mb-4 "
+		class="md:w-1/2 rounded px-8 pt-2 pb-8 mb-4 "
 		name="your-details-form"
 		method="POST"
 		data-netlify="true"
@@ -23,8 +28,8 @@
 	>
 		<input class="input " type="hidden" name="form-name" value="your-details-form" />
 		<!-- <label class="label" for="name">Name</label> -->
-
-		<h2 class="mb-0 text-primary-500 text-left">About You</h2>
+		<br />
+		<!-- <h2 class="mb-0 text-primary-500 text-left">About You</h2> -->
 		<input
 			class="input m-2 bg-secondary-500 text-primary-500 text-base"
 			name="name"
@@ -43,21 +48,15 @@
 			type="email"
 		/>
 		<!-- <label class="label" for="Town">Town</label> -->
-		<h2 class="mb-0 text-primary-500 text-left">Your Address</h2>
+		<!-- <br /><br /> -->
+		<!-- <h2 class="mb-0 text-primary-500 text-center">Your Address</h2> -->
+
 		<input
 			class="input m-2 bg-secondary-500 text-primary-500 text-base"
 			name="Street"
 			id="Street"
 			required
 			placeholder="Street / House Name"
-			type="text"
-		/>
-		<input
-			class="input m-2 bg-secondary-500 text-primary-500 text-base"
-			name="Town"
-			id="Town"
-			required
-			placeholder="Town"
 			type="text"
 		/>
 		<input
@@ -74,6 +73,14 @@
 			id="County"
 			required
 			placeholder="County"
+			type="text"
+		/>
+		<input
+			class="input m-2 bg-secondary-500 text-primary-500 text-base"
+			name="country"
+			id="country"
+			required
+			placeholder="Country"
 			type="text"
 		/>
 		<input
