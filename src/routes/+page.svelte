@@ -34,31 +34,15 @@
 			We're getting married!
 		</h1>
 		<p class="text-primary-600">
-			Dan and Ali are tying the knot! Please save the date of the 15th of June 2024, so you can join
-			us in celebrating with a day of food, drink and dancing in beautiful Cornwall. We can’t wait
-			to have you with us!
+			Dan and Ali are tying the knot! Please save the date, 15th June 2024, so you can join us in
+			celebrating with a day of food, drink and dancing in beautiful Cornwall. We can’t wait to have
+			you with us!
 		</p>
 		<p class="text-primary-600">
-			For now, some important admin - In order to receive your invite in the post please could you
-			fill in the <a href="/your-details">‘Your Details’ form here</a> so we have your address
+			For now, some important admin – to ensure that we have the correct address and that you
+			receive your invite by post please, fill in
+			<a href="/your-details">‘Your Details' here</a>.
 		</p>
-		<!-- <ImageCopyBlock
-			imageUrl="images/IMG_7416BW.jpg"
-			title=" ''We look forward to the day when we can share our love and commitment with all of the special people in our lives.'' "
-			bodyText="-love Ali & Dan"
-		/> -->
-		<!-- <p class="text-primary-600">
-			Our wedding will take place at a stunning venue in Cornwall, which we chose for its stunning
-			sea views and rustic charm. We are confident that you will fall in love with this location
-			just as much as we did.
-		</p>
-		<p class="text-primary-600">
-			To make your stay in Cornwall as comfortable as possible, we have put together a list of
-			accommodation options that are located in close proximity to our wedding venue. From cozy B&Bs
-			to luxurious hotels, you can find a range of options that cater to different budgets and
-			preferences. We highly recommend booking your accommodation as soon as possible, as Cornwall
-			is a popular holiday destination and accommodation can fill up quickly.
-		</p> -->
 	</div>
 </div>
 
@@ -91,31 +75,19 @@
 			Travel and Accommodation
 		</h1>
 		<p class="text-xl lg:text-2xl  leading-tight mb-8  text-primary-600">
-			There is onsite parking at the venue, however, staying in campers is prohibited. Pre-booking
-			taxis is a must if you’re not planning on driving to the wedding, there’s no Ubers ‘round
-			these parts!
+			There is onsite parking at the venue; however, staying in campers is prohibited. Pre-booking
+			taxis is a must if you’re not planning on driving to the wedding; there’s no Ubers round these
+			parts!
 			<br /><br />
-			Launcells Barton is very close to the coastal town of Bude and its neighbouring parish Stratton.
-			There are loads of hotels, self-catering cottages and campsites in the area which would make great
-			options if you’re looking to make a weekend away of your trip. We recommend booking early as it
-			can get very busy in the summer months.
+			Launcells Barton is very close to the coastal town of Bude and its neighbouring parish, Stratton.
+			If you’re looking to make your trip into a weekend away, there are plenty of hotels, self-catering
+			cottages and campsites in the area. We recommend booking early as it can get very busy in the summer
+			months.
 
 			<br /> <br />
 			Find accommodation here:
-			<a href="https://www.visitbude.info/accommodation/">Hotels near Bude & Stratton</a>
+			<a href="https://www.visitbude.info/accommodation/">Accommodation near Bude & Stratton</a>
 		</p>
-
-		<!-- <ImageCopyBlock
-		imageUrl="./images/bude.jpg"
-		title=" Bude Town "
-		bodyText="Bude is a seaside town in north east Cornwall, England, in the civil parish of Bude-Stratton and at the mouth of the River Neet "
-	/>
-
-	<ImageCopyBlock
-		imageUrl="./images/Stratton-5359.jpg"
-		title="Stratton"
-		bodyText="Stratton is a market town in Cornwall, England situated near the coastal town of Bude and the market town of Holsworthy."
-	/> -->
 	</div>
 </div>
 
@@ -158,7 +130,7 @@
 			Contact Us
 		</h1>
 		<p class="text-xl lg:text-2xl  leading-tight mb-8 text-primary-600 text-center mb-8">
-			Should you have any questions or queries you can contact us at any time.
+			If you’re unsure about anything, please contact us!
 		</p>
 		<p class="text-xl lg:text-2xl  leading-tight mb-8 text-primary-600  text-center">
 			Contact us via <a
