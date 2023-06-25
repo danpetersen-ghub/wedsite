@@ -164,7 +164,7 @@
 		/* filter: grayscale(100%);  */
 	}
 	.beach {
-		background-position: 0px -150px;
+		background-position: 0px -250px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -172,7 +172,7 @@
 		height: 50vh;
 	}
 	.wedding-img {
-		background-position: center;
+		/* background-position: center; */
 		background-repeat: no-repeat;
 		min-height: 50vh;
 		background-size: cover;
@@ -187,7 +187,7 @@
 			background-position: top;
 		}
 		.beach {
-			background-position: 0px -750px;
+			background-position: 0px -450px;
 			background-repeat: no-repeat;
 			background-size: cover;
 			min-height: 75vh !important;
