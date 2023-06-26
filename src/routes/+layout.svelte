@@ -37,7 +37,7 @@
 		><footer class="variant-soft-primary text-primary-600 py-8 px-4 py-24">
 			<div class="container mx-auto justify-between text-center h-50">
 				<div class="w-full sm:w-auto  text-center">
-					<p>&copy; 2023 Dan & Ali</p>
+					<p>&copy; 2023 Ali & Dan</p>
 					<!-- <p class="italic">Created by us, for us, with love</p> -->
 				</div>
 			</div>
