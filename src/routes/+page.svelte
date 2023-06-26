@@ -34,7 +34,7 @@
 			We're getting married!
 		</h1>
 		<p class="text-primary-600">
-			Dan and Ali are tying the knot! Please save the date, 15th June 2024, so you can join us in
+			Ali and Dan are tying the knot! Please save the date, 15th June 2024, so you can join us in
 			celebrating with a day of food, drink and dancing in beautiful Cornwall. We can’t wait to have
 			you with us!
 		</p>
